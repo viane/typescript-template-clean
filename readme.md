@@ -7,4 +7,8 @@ Main focus on OOP and strong typed javascript implementation.
 
 gulp watch
 
+# Run
+
+node /built/js/main.js
 ```
+
