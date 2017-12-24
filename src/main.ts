@@ -1,7 +1,17 @@
-var startTime = performance.now();
+import now = require("performance-now")
+
+var startTime = now()
 
 // Implement your function here
+const sleep = (miliseconds)=> {
+   var currentTime = new Date().getTime();
 
-var endTime = performance.now();
+   while (currentTime + miliseconds >= new Date().getTime()) {
+   }
+}
+sleep(827);
+// End of implementation
 
-console.log("Main took " + (startTime - endTime) + " milliseconds to finish.")
+var endTime = now()
+
+console.log("\nTask took " + (endTime - startTime).toFixed(1) + " milliseconds to finish.\n")
