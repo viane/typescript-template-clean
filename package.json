@@ -2,14 +2,17 @@
   "name": "integer-division",
   "version": "1.0.0",
   "description": "Main focus on OOP and strong typed javascript implementation.",
+  "engines": {
+    "node": ">=6.11"
+  },
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^3.2.3",
-    "merge2": "^1.2.0",
     "typescript": "^2.6.2"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3",
+    "merge2": "^1.2.0",
     "@types/chai": "^4.0.10",
     "@types/mocha": "^2.2.45",
     "chai": "^4.1.2",
