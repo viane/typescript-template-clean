@@ -26,6 +26,6 @@ npm complie # Will generate /built/js/allInOne.js
 npm test
 
 # Development Test(Auto test when save)
-npm test
+npm test-dev
 
 ```
