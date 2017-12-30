@@ -1,17 +1,21 @@
-# Typescript practice
+# Typescript template
 
-Main focus on OOP and strong typed javascript implementation.
+Basic Typescript template uses class export pattern with mocha/chai unit test framework
 
 ```sh
 # Auto compile .ts to .js and start watching
 
-gulp watch
+npm watch
 
-# Run & Test
+# Run
 
-node /built/js/main.js
+npm start
 
 # Compress to one file
 
-gulp compress # Will generate /built/js/allInOne.js
+npm complie # Will generate /built/js/allInOne.js
+
+# Test
+npm test
+
 ```

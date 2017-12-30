@@ -13,9 +13,13 @@ var sleep = function (miliseconds) {
 sleep(827);
 // End of implementation
 var endTime = now();
-console.log("Task took " + (endTime - startTime).toFixed(1) + " milliseconds to finish.");
+console.log("\nTask took " + (endTime - startTime).toFixed(1) + " milliseconds to finish.\n");
+function helloWorld() {
+    return "Hello World";
+}
+exports.helloWorld = helloWorld;
 
-}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_424e4fea.js","/")
+}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_102f889b.js","/")
 },{"buffer":3,"performance-now":5,"rH1JPG":6}],2:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';

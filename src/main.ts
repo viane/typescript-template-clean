@@ -15,3 +15,8 @@ sleep(827);
 var endTime = now()
 
 console.log("\nTask took " + (endTime - startTime).toFixed(1) + " milliseconds to finish.\n")
+
+
+export function helloWorld(){
+  return "Hello World"
+}
