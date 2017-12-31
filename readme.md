@@ -10,6 +10,11 @@
 Basic Typescript template uses class export pattern with mocha/chai unit test framework
 
 ```sh
+
+# Install necessary dependencies
+
+npm install
+
 # Auto compile .ts to .js and start watching
 
 npm watch
@@ -23,9 +28,11 @@ npm start
 npm complie # Will generate /built/js/allInOne.js
 
 # Test
+
 npm test
 
 # Development Test(Auto test when save)
+
 npm test-dev
 
 ```
