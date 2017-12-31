@@ -1,5 +1,5 @@
 built/* linguist-vendored
 
-*.js linguist-vendored
+*.js linguist-language=Typescript
 
 src/*.ts linguist-language=Typescript
