@@ -1,0 +1,3 @@
+built/* linguist-vendored
+
+*.ts linguist-language=Typescript
