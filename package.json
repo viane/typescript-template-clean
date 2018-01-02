@@ -1,11 +1,11 @@
 {
   "name": "integer-division",
   "version": "1.0.0",
-  "description": "Main focus on OOP and strong typed javascript implementation.",
+  "description": "Basic template but should cover most of the building options.",
   "engines": {
     "node": ">=6.11"
   },
-  "main": "gulpfile.js",
+  "main": "src/main.ts",
   "dependencies": {
     "typescript": "^2.6.2"
   },
